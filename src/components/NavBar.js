@@ -19,21 +19,21 @@ export default function NavBar() {
           <NavLink
             to='/post'
             className='inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800'
-            activeClassName='text-green-100 bg-green-700'
+            activeClassName='text-green-100 bg-green-500'
           >
             Blog Posts
           </NavLink>
           <NavLink
             to='/project'
             className='inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800'
-            activeClassName='text-green-100 bg-green-700'
+            activeClassName='text-green-100 bg-green-500'
           >
             Projects
           </NavLink>
           <NavLink
             to='/about'
             className='inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800'
-            activeClassName='text-green-100 bg-green-700'
+            activeClassName='text-green-100 bg-green-500'
           >
             About Me!
           </NavLink>
