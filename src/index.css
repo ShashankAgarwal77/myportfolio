@@ -29,3 +29,13 @@ body {
 .home-name {
   font-size: 150px;
 }
+
+.home__main {
+  padding: 4em 2em 0 2em;
+  align-items: center;
+}
+
+.home__main--heading-span {
+  font-family: var(--ff-primary);
+  font-weight: 900;
+}
