@@ -35,6 +35,10 @@ body {
   align-items: center;
 }
 
+.home__main--content {
+  margin-top: -3.5em;
+}
+
 .home__main--heading-span {
   font-family: var(--ff-primary);
   font-weight: 900;
