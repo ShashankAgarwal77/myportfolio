@@ -1,13 +1,12 @@
-import react from 'react';
+import React from 'react';
 import image from '../home__img.svg';
-import nl2br from 'react-newline-to-break';
 
 
 export default function Home() {
   return (
     <main className='home__main flex flex-row-reverse justify-center content-center mt-8'>
       <div>
-        <img src={image} alt='image of heatmap of website' />
+        <img src={image} alt='heatmap' />
       </div>
       <section className="home__main--content">
         <h1 className='text-5xl bold pr-6 mr-6'>
