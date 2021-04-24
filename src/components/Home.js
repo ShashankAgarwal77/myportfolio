@@ -25,5 +25,6 @@ export default function Home() {
         <p className='text-xl text-white'>I am known for belief in the power of creativity, minimalism and problem solving <div> {'\n'} </div> {' '} to create a more inclusive communities<span className='text-green-400'>.</span></p>
       </section>
     </main>
+    
   );
 }
