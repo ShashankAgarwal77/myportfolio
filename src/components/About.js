@@ -2,6 +2,11 @@ import React, { useEffect, useState } from 'react';
 import sanityClient from '../client.js';
 import imageUrlBuilder from '@sanity/image-url';
 import BlockContent from '@sanity/block-content-to-react';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaBehance } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaMailBulk } from 'react-icons/fa';
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -33,8 +38,8 @@ export default function About() {
         alt='nature'
         className='absolute w-full'
       /> */}
-      <div className='p-10 lg:pt-12 container mx-auto relative'>
-        <section className='about_container bg-green-800 rounded-lg shadow-2xl lg:flex p-20'>
+      <div className='p-5 md:p-10 lg:pt-12 container mx-auto relative'>
+        <section className='about_container p-10 rounded-lg shadow-2xl lg:flex lg:p-20'>
           <img
             src={urlFor(author.authorImage).url()}
             className='rounded w-32 h-32 lg:w-64 lg:h-64 mr-8'
@@ -52,6 +57,37 @@ export default function About() {
                 dataset='production'
               />
             </div>
+            <div className=" social_heading text-3xl text-white mb-2">
+              <h3>Social Media Handles 👇 </h3>
+            </div>
+            <div className='flex items-end'>
+              <div>
+                <a href="https://www.linkedin.com/in/shashank-agarwal11/">
+                  <FaLinkedinIn className="text-white mr-4 hover:text-blue-700" size={28} /> 
+                </a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/boywhodesign/">
+                  <FaInstagram className="text-white mr-4 hover:text-red-500" size={28} /> 
+                </a>
+              </div>
+              <div>
+                <a href="https://www.behance.net/shashankagarwal/">
+                  <FaBehance className="text-white mr-4 hover:text-blue-600" size={28} /> 
+                </a>
+              </div> 
+              <div>
+                <a href="https://github.com/ShashankAgarwal77/">
+                  <FaGithub className="text-white mr-4 hover:text-gray-600" size={28} /> 
+                </a>
+              </div>
+              <div>
+                <a href="https://mail.google.com/mail/u/?authuser=shashankagarwal.official@gmail.com/">
+                  <FaMailBulk className="text-white mr-4 hover:text-red-700" size={28} /> 
+                </a>
+              </div>
+            </div>
+            
           </div>
         </section>
       </div>

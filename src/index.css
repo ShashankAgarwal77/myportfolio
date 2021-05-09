@@ -61,26 +61,22 @@ body {
 
 .home_header-p {
   display: inline-block;
-  padding: 0.1rem 0.8rem;
-  border-radius: 0.3rem;
+  padding: 0.3rem 1rem;
 }
 
 .p_creativity {
   display: inline-block;
   padding: 0 0.3rem;
-  border-radius: 0.2rem;
 }
 
 .p_problem {
   display: inline-block;
   padding: 0 0.3rem;
-  border-radius: 0.2rem;
 }
 
 .p_minimalism {
   display: inline-block;
   padding: 0 0.3rem;
-  border-radius: 0.2rem;
 }
 
 .about_container {
@@ -97,4 +93,8 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
+}
+
+.social_heading {
+  font-family: var(--ff-heading);
 }
