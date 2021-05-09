@@ -28,11 +28,12 @@ export default function Project() {
         <h2 className='text-lg text-gray-600 flex justify-center mb-12'>
           Welcome to my projects page!
         </h2>
-        <section className='grid grid-cols-2 gap-8'>
+        <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {projectData &&
             projectData.map((project, index) => (
               <article className='relative rounded-lg shadow-xl bg-white p-16'>
-                <h3 className='text-gray-800 text-3xl font-bold mb-2 hover:text-red-700'>
+                <div className="project_container flex flex-col ">
+                <h3 className='text-gray-800 text-2xl lg:text-3xl font-bold mb-2 hover:text-red-700'>
                   <a
                     href={project.link}
                     alt={project.title}
@@ -42,20 +43,26 @@ export default function Project() {
                     {project.title}
                   </a>
                 </h3>
-                <div className='text-gray-500 text-xs space-x-4'>
+                <div className='flex flex-col text-gray-500 text-xs '>
+                  <div>
                   <span>
                     <strong className='font-bold'>Finished on</strong>:{' '}
                     {new Date(project.date).toLocaleDateString()}
                   </span>
+                  </div>
+                  <div>
                   <span>
                     <strong className='font-bold'>Company</strong>:{' '}
                     {project.place}
                   </span>
+                  </div>
+                  <div>
                   <span>
                     <strong className='font-bold'>Type</strong>:{' '}
                     {project.projectType}
                   </span>
-                  <p className='my-5 text-lg text-gray-700 leading-relaxed'>
+                  </div>
+                  <p className='my-5 p-0 text-base md:text-lg text-gray-700 leading-relaxed'>
                     {project.description}
                   </p>
                   <a
@@ -70,6 +77,7 @@ export default function Project() {
                     </span>
                   </a>
                 </div>
+                </div>   
               </article>
             ))}
         </section>

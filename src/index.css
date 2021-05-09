@@ -5,16 +5,18 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
   --ff-primary: 'Amatic SC';
   --ff-secondary: 'Poppins';
+  --ff-heading: 'Bebas Neue', cursive;
 }
 
 body {
   font-size: 16px;
   font-family: var(--ff-secondary);
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .cursive {
@@ -32,16 +34,51 @@ body {
   font-size: 150px;
 }
 
-.home__main {
-  padding: 4em 2em 0 2em;
-  align-items: center;
+.home_header-span {
+  font-family: var(--ff-heading);
+  letter-spacing: 0.2rem;
 }
 
-.home__main--content {
-  margin-top: -3.5em;
+.home__main {
+  padding: 4em 3em 4em 3em;
+  margin: 4em 2em 0 2em;
+  align-items: center;
+  background: rgba(4, 4, 4, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
 }
+
+/* .home__main--content {
+  margin-top: -3.5em;
+} */
 
 .home__main--heading-span {
   font-family: var(--ff-primary);
   font-weight: 900;
+}
+
+.home_header-p {
+  display: inline-block;
+  padding: 0.1rem 0.8rem;
+  border-radius: 0.3rem;
+}
+
+.p_creativity {
+  display: inline-block;
+  padding: 0 0.3rem;
+  border-radius: 0.2rem;
+}
+
+.p_problem {
+  display: inline-block;
+  padding: 0 0.3rem;
+  border-radius: 0.2rem;
+}
+
+.p_minimalism {
+  display: inline-block;
+  padding: 0 0.3rem;
+  border-radius: 0.2rem;
 }
