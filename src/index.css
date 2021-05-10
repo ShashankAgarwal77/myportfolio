@@ -98,3 +98,9 @@ body {
 .social_heading {
   font-family: var(--ff-heading);
 }
+
+.credits {
+  font-family: var(--ff-secondary);
+  letter-spacing: 0.2rem;
+  text-align: center;
+}

@@ -90,6 +90,10 @@ export default function About() {
             
           </div>
         </section>
+        <div className='credits mt-5 text-black text-green-500 uppercase'>
+              <p>Created with ❤️  &amp; ☕</p>
+              <p> &#169; Shashank Agarwal, 2020 </p>
+          </div>
       </div>
     </main>
   );
