@@ -108,7 +108,7 @@ body {
 
 
   @media (max-width: 812px) {
-    img#home_image--container{
+    div#home_image--container{
       display: none;
     }
   }
