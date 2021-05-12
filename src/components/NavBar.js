@@ -1,6 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import {FaBars} from 'react-icons/fa'
+
+import {
+  Nav,
+  NavbarContainer,
+  MobileIcon,
+  NavMenu
+} from './NavbarElements';
+
+
 export default function NavBar() {
 
   return (
@@ -15,29 +25,37 @@ export default function NavBar() {
         >
           Shashank
         </NavLink>
-        <nav className='flex py-3 px-3'>
-          <NavLink
-            to='/post'
-            className='inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
-            activeClassName='text-green-100 bg-green-500'
-          >
-            Case Studies
-          </NavLink>
-          <NavLink
-            to='/project'
-            className='inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
-            activeClassName='text-green-100 bg-green-500'
-          >
-            Projects
-          </NavLink>
-          <NavLink
-            to='/about'
-            className='inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
-            activeClassName='text-green-100 bg-green-500'
-          >
-            About Me!
-          </NavLink>
-        </nav>
+          <Nav className='flex py-3 px-3'>
+            <NavbarContainer>
+            <MobileIcon>
+              <FaBars />
+            </MobileIcon>
+            <NavMenu>
+              <NavLink
+                to='/post'
+                className='inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
+                activeClassName='text-green-100 bg-green-500'
+              >
+                Case Studies
+              </NavLink>
+              <NavLink
+                to='/project'
+                className='inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
+                activeClassName='text-green-100 bg-green-500'
+              >
+                Projects
+              </NavLink>
+              <NavLink
+                to='/about'
+                className='inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
+                activeClassName='text-green-100 bg-green-500'
+              >
+                About Me!
+              </NavLink>
+            </NavMenu>
+            </NavbarContainer>
+          </Nav>
+        
 
         {/* <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon

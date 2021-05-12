@@ -5,10 +5,12 @@ import SinglePost from './components/SinglePost';
 import Post from './components/Post';
 import Project from './components/Project';
 import NavBar from './components/NavBar';
+import SideBar from './components/Sidebar';
 
 function App() {
   return (
     <BrowserRouter>
+      {/* <SideBar /> */}
       <NavBar />
       <Switch>
         <Route component={Home} path='/' exact />
