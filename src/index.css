@@ -10,8 +10,7 @@
 :root {
   --ff-primary: 'Amatic SC';
   --ff-secondary: 'Poppins';
-  --ff-heading: 'Bebas Neue',
-    cursive;
+  --ff-heading: 'Bebas Neue', cursive;
 }
 
 body {
@@ -41,8 +40,8 @@ body {
 }
 
 .home__main {
-  padding: 4em 3em 4em 3em;
-  margin: 4em 2em 0 2em;
+  padding: 4em 3em;
+  margin: 2em;
   align-items: center;
   background: rgba(4, 4, 4, 0.5);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -106,9 +105,8 @@ body {
   text-align: center;
 }
 
-
-  @media (max-width: 812px) {
-    div#home_image--container{
-      display: none;
-    }
+@media (max-width: 812px) {
+  div#home_image--container {
+    display: none;
   }
+}
