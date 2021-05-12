@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className='home__main flex flex-row-reverse justify-between content-center mt-8 bg-black-100'>
       <div>
-        <img src={image} alt='avatar for profile' />
+        <img id="home_image--container" src={image} alt='avatar for profile' />
       </div>
       <section className='home__main--content'>
         <h1 className='text-3xl bold pr-6 mr-6'>

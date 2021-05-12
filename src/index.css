@@ -105,3 +105,10 @@ body {
   letter-spacing: 0.2rem;
   text-align: center;
 }
+
+
+  @media (max-width: 812px) {
+    img#home_image--container{
+      display: none;
+    }
+  }
