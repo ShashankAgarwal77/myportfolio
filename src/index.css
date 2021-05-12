@@ -10,7 +10,7 @@
 :root {
   --ff-primary: 'Amatic SC';
   --ff-secondary: 'Poppins';
-  --ff-heading: url('./Fonts/Cerebri-Sans/CerebriSans-Heavy.ttf'), 'Bebas Neue',
+  --ff-heading: 'Bebas Neue',
     cursive;
 }
 
