@@ -1,18 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import {FaBars} from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa';
 
-import {
-  Nav,
-  NavbarContainer,
-  MobileIcon,
-  NavMenu
-} from './NavbarElements';
+import { Nav, NavbarContainer, MobileIcon, NavMenu } from './NavbarElements';
 
-
-export default function NavBar() {
-
+export default function NavBar({ toggle }) {
   return (
     <header className='nav_container flex bg-white-400'>
       <div className='container mx-auto flex justify-between'>
@@ -25,9 +18,9 @@ export default function NavBar() {
         >
           Shashank
         </NavLink>
-          <Nav className='flex py-3 px-3'>
-            <NavbarContainer>
-            <MobileIcon>
+        <Nav className='flex py-3 px-3'>
+          <NavbarContainer>
+            <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
             <NavMenu>
@@ -53,9 +46,8 @@ export default function NavBar() {
                 About Me!
               </NavLink>
             </NavMenu>
-            </NavbarContainer>
-          </Nav>
-        
+          </NavbarContainer>
+        </Nav>
 
         {/* <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon

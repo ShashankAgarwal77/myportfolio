@@ -6,12 +6,22 @@ import Post from './components/Post';
 import Project from './components/Project';
 import NavBar from './components/NavBar';
 import SideBar from './components/Sidebar';
+import { useState } from 'react';
 
 function App() {
+
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+      setIsOpen(!isOpen)
+  }
+
+
   return (
+
     <BrowserRouter>
-      {/* <SideBar /> */}
-      <NavBar />
+      <SideBar isOpen={isOpen} toggle={toggle} />
+      <NavBar toggle={toggle} />
       <Switch>
         <Route component={Home} path='/' exact />
         <Route component={About} path='/about' />
