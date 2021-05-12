@@ -63,27 +63,27 @@ export default function About() {
             <div className='flex items-end'>
               <div>
                 <a href="https://www.linkedin.com/in/shashank-agarwal11/">
-                  <FaLinkedinIn className="text-white mr-4 hover:text-blue-700" size={28} /> 
+                  <FaLinkedinIn className="text-white mr-4 hover:text-blue-700 transition duration-500 ease-in-out" size={28} /> 
                 </a>
               </div>
               <div>
                 <a href="https://www.instagram.com/boywhodesign/">
-                  <FaInstagram className="text-white mr-4 hover:text-red-500" size={28} /> 
+                  <FaInstagram className="text-white mr-4 hover:text-red-500 transition duration-500 ease-in-out" size={28} /> 
                 </a>
               </div>
               <div>
                 <a href="https://www.behance.net/shashankagarwal/">
-                  <FaBehance className="text-white mr-4 hover:text-blue-600" size={28} /> 
+                  <FaBehance className="text-white mr-4 hover:text-blue-600 transition duration-500 ease-in-out" size={28} /> 
                 </a>
               </div> 
               <div>
                 <a href="https://github.com/ShashankAgarwal77/">
-                  <FaGithub className="text-white mr-4 hover:text-gray-600" size={28} /> 
+                  <FaGithub className="text-white mr-4 hover:text-gray-600 transition duration-500 ease-in-out" size={28} /> 
                 </a>
               </div>
               <div>
                 <a href="https://mail.google.com/mail/u/?authuser=shashankagarwal.official@gmail.com/">
-                  <FaMailBulk className="text-white mr-4 hover:text-red-700" size={28} /> 
+                  <FaMailBulk className="text-white mr-4 hover:text-red-700 transition duration-500 ease-in-out" size={28} /> 
                 </a>
               </div>
             </div>
@@ -91,8 +91,9 @@ export default function About() {
           </div>
         </section>
         <div className='credits mt-5 text-black text-green-500 uppercase'>
+              <p className='text-sm'> This website is also created by me using ReactJS + Sanity.io </p>
               <p>Created with ❤️  &amp; ☕</p>
-              <p> &#169; Shashank Agarwal, 2020 </p>
+              <p className='font-bold'> &#169; Shashank Agarwal, 2020 </p>
           </div>
       </div>
     </main>
