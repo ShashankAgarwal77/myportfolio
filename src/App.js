@@ -6,7 +6,6 @@ import Post from './components/Post';
 import Project from './components/Project';
 import NavBar from './components/NavBar';
 import SideBar from './components/Sidebar';
-import PreLoader from './components/PreLoader';
 import { useState } from 'react';
 
 function App() {
