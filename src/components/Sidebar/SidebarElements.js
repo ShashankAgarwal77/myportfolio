@@ -27,7 +27,7 @@ export const SideBarContainer = styled.aside`
 
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
 
-  top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+  left: ${({ isOpen }) => (isOpen ? '0' : '100%')};
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -61,6 +61,9 @@ export const SidebarMenu = styled.ul`
 
   grid-template-rows: repeat(6, 80px);
 
+  font-size: 2rem;
+  margin-top: 5em;
+
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
   }
@@ -74,7 +77,7 @@ align-items: center;
 
 justify-content: center;
 
-font-size: 1.5renl
+font-size: 1.5rem
 
 text-decoration: none;
 

@@ -6,19 +6,17 @@ import Post from './components/Post';
 import Project from './components/Project';
 import NavBar from './components/NavBar';
 import SideBar from './components/Sidebar';
+import PreLoader from './components/PreLoader';
 import { useState } from 'react';
 
 function App() {
-
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
-      setIsOpen(!isOpen)
-  }
-
+    setIsOpen(!isOpen);
+  };
 
   return (
-
     <BrowserRouter>
       <SideBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />

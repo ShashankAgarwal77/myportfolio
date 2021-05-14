@@ -26,22 +26,22 @@ export default function NavBar({ toggle }) {
             <NavMenu>
               <NavLink
                 to='/post'
-                className='inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
-                activeClassName='text-green-100 bg-green-500'
+                className='nav_link-btn inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
+                // activeClassName='text-green-100 bg-green-500'
               >
                 Case Studies
               </NavLink>
               <NavLink
                 to='/project'
-                className='inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
-                activeClassName='text-green-100 bg-green-500'
+                className='nav_link-btn inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
+                // activeClassName='text-green-100 bg-green-500'
               >
                 Projects
               </NavLink>
               <NavLink
                 to='/about'
-                className='inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
-                activeClassName='text-green-100 bg-green-500'
+                className='nav_link-btn inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
+                // activeClassName='text-green-100 bg-green-500'
               >
                 About Me!
               </NavLink>
