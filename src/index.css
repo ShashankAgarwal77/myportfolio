@@ -11,8 +11,8 @@
 :root {
   --ff-primary: 'Amatic SC';
   --ff-secondary: 'Poppins';
-  /* --ff-heading: 'Bebas Neue', cursive; */
-  --ff-heading: 'Catamaran', 'Bebas Neue', cursive;
+  --ff-heading: 'Bebas Neue', cursive;
+  /* --ff-heading: 'Catamaran', 'Bebas Neue', cursive; */
 }
 
 body {
@@ -63,7 +63,7 @@ body {
 }
 
 .home_header-p {
-  font-family: var(--ff-heading);
+  font-family: var(--ff-secondary);
   display: inline-block;
   padding: 0.3rem 1rem;
 }
@@ -72,6 +72,7 @@ body {
   display: inline-block;
   padding: 0 0.3rem;
 }
+
 
 .p_problem {
   display: inline-block;
@@ -97,6 +98,15 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
+}
+
+.footer_container {
+  background: rgba(4, 4, 4, 0.5);
+  /* background: white; */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px 10px 0 0;
 }
 
 .social_heading {

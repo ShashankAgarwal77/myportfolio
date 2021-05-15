@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { useState } from 'react';
 import Home from './components/Home';
 import About from './components/About';
 import SinglePost from './components/SinglePost';
@@ -6,7 +7,7 @@ import Post from './components/Post';
 import Project from './components/Project';
 import NavBar from './components/NavBar';
 import SideBar from './components/Sidebar';
-import { useState } from 'react';
+import Footer from './components/Footer';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ function App() {
         <Route component={Post} path='/post' />
         <Route component={Project} path='/project' />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
