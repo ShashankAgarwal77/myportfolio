@@ -19,15 +19,15 @@ const SideBar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink className="nav_link-btn" to='/post' onClick={toggle}>
-            Case-Studies
+            Case-Studies 🖊️
           </SidebarLink>
 
           <SidebarLink className="nav_link-btn" to='/project' onClick={toggle}>
-            Projects
+            Projects 🖥️ 
           </SidebarLink>
 
           <SidebarLink className="nav_link-btn" to='/about' onClick={toggle}>
-            About Me!
+            About 🥷
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>

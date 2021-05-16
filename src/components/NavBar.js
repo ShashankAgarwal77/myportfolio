@@ -43,7 +43,7 @@ export default function NavBar({ toggle }) {
                 className='nav_link-btn inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
                 activeClassName='text-green-500'
               >
-                About Me!
+                About
               </NavLink>
             </NavMenu>
           </NavbarContainer>
