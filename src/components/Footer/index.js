@@ -9,10 +9,12 @@ const Footer = ({ ...otherProps }) => {
   return (
     <footer className='footer_container text-green-700 bg-black-700'>
       <div className='flex flex-col justify-between w-full max-w-7xl mx-auto px-20 py-10 credits mt-5 text-black text-green-500 uppercase'>
-        
         <div>
           <div className=' social_heading text-3xl text-white mb-5'>
-            <h3>Let's Connect<span className='text-green-700'>.</span>👇 </h3>
+            <h3>
+              Let's Connect<span className='text-green-700'>.</span>
+              <span className='look_down'>👇</span>{' '}
+            </h3>
           </div>
           <div className='flex items-end justify-evenly mb-10'>
             <div>
@@ -63,8 +65,11 @@ const Footer = ({ ...otherProps }) => {
             {' '}
             This website is also created by me using ReactJS + Sanity.io{' '}
           </p> */}
-          <p className='text-gray-600'>Created by me with ⚛️ ❤️ &amp; ☕</p>
-          <p className='text-gray-600 font-bold'> &#169; Shashank Agarwal, 2021 </p>
+          <p className='text-gray-600'>Created by me with ⚛️ ☕ &amp; ❤️</p>
+          <p className='text-gray-600 font-bold'>
+            {' '}
+            &#169; Shashank Agarwal, 2021{' '}
+          </p>
         </div>
       </div>
     </footer>
