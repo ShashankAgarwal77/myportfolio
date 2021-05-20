@@ -7,11 +7,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
 
 :root {
   --ff-primary: 'Amatic SC';
   --ff-secondary: 'Poppins';
-  --ff-heading: 'Bebas Neue', cursive;
+  --ff-heading: 'Syncopate', 'Bebas Neue', sans-serif;
   /* --ff-heading: 'Catamaran', 'Bebas Neue', cursive; */
 }
 
@@ -39,6 +40,8 @@ body {
 .home_header-span {
   font-family: var(--ff-heading);
   text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1em;
   /* letter-spacing: 0.1rem; */
 }
 
@@ -183,8 +186,6 @@ body {
   display: inline-block;
 }
 
-
-
 /* KeyFrames -- Animation */
 
 @keyframes wave-animation {
@@ -215,7 +216,6 @@ body {
 }
 
 @keyframes lookdown-animation {
-
   0% {
     transform: translateY(-10%);
   }
@@ -235,5 +235,4 @@ body {
   100% {
     transform: translateY(10%);
   }
-
 }

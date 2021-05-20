@@ -14,9 +14,12 @@ export default function Home() {
         <h1 className='text-3xl bold pr-6 mr-6'>
           <span className=' home__main--heading-span text-green-400'>
             {' '}
-            Hello! <span className='wavy_hands wavy_hands--animation'>👋</span> I am <div> {'\n'} </div>{' '}
+            Hello! <span className='wavy_hands wavy_hands--animation'>
+              👋
+            </span>{' '}
+            I am <div> {'\n'} </div>{' '}
           </span>
-          <span className=' home_header-span text-5xl leading-2 text-white md:text-6xl'>
+          <span className=' home_header-span text-2xl leading-2 text-white md:text-6xl'>
             Shashank Agarwal
           </span>
           <span className='text-green-400'>.</span>
