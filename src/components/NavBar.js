@@ -5,6 +5,9 @@ import { FaBars } from 'react-icons/fa';
 
 import { Nav, NavbarContainer, MobileIcon, NavMenu } from './NavbarElements';
 
+// import { ReactComponent as Logo } from '../SVGs/logo.svg';
+import Logo from '../SVGs/logo.svg';
+
 export default function NavBar({ toggle }) {
   return (
     <header className='nav_container flex bg-white-400'>
@@ -14,9 +17,9 @@ export default function NavBar({ toggle }) {
           exact
           activeClassName='text-green'
           className='inline-flex items-center py-6 px-3 mr-4 text-white
-                    hover:text-green-700 text-4xl font-bold cursive  tracking-widest'
+                    hover:bg-green-700 hover:drop-shadow-2xl text-4xl font-bold cursive  tracking-widest'
         >
-          Shashank
+          <img height={80} width={80} src={Logo} alt='Shashank Agarwal Logo' />
         </NavLink>
         <Nav className='flex py-3 px-3'>
           <NavbarContainer>
