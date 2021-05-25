@@ -60,7 +60,7 @@ const Footer = ({ ...otherProps }) => {
           </div>
         </div>
 
-        <div>
+        <div className='text-xs'>
           {/* <p className='text-sm text-gray-700 text-lowercase'>
             {' '}
             This website is also created by me using ReactJS + Sanity.io{' '}
