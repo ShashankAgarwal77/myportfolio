@@ -11,6 +11,7 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
     "get-youtube-id": "^1.0.1",
+    "queue-microtask": "^1.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-dropdown": "^1.9.2",
@@ -20,7 +21,7 @@
     "react-newline-to-break": "^1.0.6",
     "react-responsive": "^8.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^1.1.5",
     "react-social-icons": "^4.1.0",
     "react-svg": "^13.0.5",
     "styled-components": "^5.2.1",
@@ -49,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-polyfill-corejs2": "^0.2.2",
+    "babel-plugin-polyfill-corejs3": "^0.2.2"
   }
 }
