@@ -13,7 +13,9 @@ const Footer = ({ ...otherProps }) => {
           <div className=' social_heading text-3xl text-white mb-5'>
             <h3>
               Let's Connect<span className='text-green-700'>.</span>
-              <span className='look_down'>👇</span>{' '}
+              <span role='img' aria-label='Look Down' className='look_down'>
+                👇
+              </span>{' '}
             </h3>
           </div>
           <div className='flex items-end justify-evenly mb-10'>
@@ -65,7 +67,12 @@ const Footer = ({ ...otherProps }) => {
             {' '}
             This website is also created by me using ReactJS + Sanity.io{' '}
           </p> */}
-          <p className='text-gray-600'>Created by me with ⚛️ ☕ &amp; ❤️</p>
+          <p className='text-gray-600'>
+            Created by me with{' '}
+            <span role='img' aria-label='react, coffee and love'>
+              ⚛️ ☕ &amp; ❤️
+            </span>
+          </p>
           <p className='text-gray-600 font-bold'>
             {' '}
             &#169; Shashank Agarwal, 2021{' '}

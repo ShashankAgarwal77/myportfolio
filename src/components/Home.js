@@ -14,7 +14,12 @@ export default function Home() {
         <h1 className='text-3xl bold pr-6 mr-6'>
           <span className=' text-2xl home__main--heading-span text-green-400'>
             {' '}
-            Hello! <span className='wavy_hands wavy_hands--animation'>
+            Hello!{' '}
+            <span
+              role='img'
+              aria-label='Hi wave'
+              className='wavy_hands wavy_hands--animation'
+            >
               👋
             </span>{' '}
             I am <div> {'\n'} </div>{' '}
