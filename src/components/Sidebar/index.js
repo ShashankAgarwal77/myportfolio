@@ -29,6 +29,10 @@ const SideBar = ({ isOpen, toggle }) => {
           <SidebarLink className='nav_link-btn' to='/about' onClick={toggle}>
             About
           </SidebarLink>
+
+          <SidebarLink className='nav_link-btn' to='/resume' onClick={toggle}>
+            Resume
+          </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SideBarContainer>

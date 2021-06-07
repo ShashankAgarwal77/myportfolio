@@ -48,6 +48,14 @@ export default function NavBar({ toggle }) {
               >
                 About
               </NavLink>
+              <NavLink
+                to='/resume'
+                className='nav_link-btn inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700'
+                activeClassName='text-green-500'
+                target='_blank'
+              >
+                Resume
+              </NavLink>
             </NavMenu>
           </NavbarContainer>
         </Nav>

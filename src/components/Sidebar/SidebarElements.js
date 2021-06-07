@@ -70,33 +70,29 @@ export const SidebarMenu = styled.ul`
 `;
 
 export const SidebarLink = styled(LinkR)`
+  display: flex;
 
-display: flex;
+  align-items: center;
 
-align-items: center;
+  justify-content: center;
 
-justify-content: center;
+  font-size: 1.5rem;
 
-font-size: 1.5rem
+  text-decoration: none;
 
-text-decoration: none;
+  list-style: none;
 
-list-style: none;
+  transition: 0.2s ease-in-out;
 
-transition: 0.2s ease-in-out;
+  text-decoration: none;
 
-text-decoration: none;
+  color: fff;
 
-color: fff;
+  &:hover {
+    color: #01bf71;
 
-&:hover {
-
-color: #01bf71;
-
-transition: 0.2s ease-in-out;
-
-}
-
+    transition: 0.2s ease-in-out;
+  }
 `;
 
 export const SideBtnWrap = styled.div`
