@@ -19,42 +19,42 @@ const Footer = ({ ...otherProps }) => {
             </h3>
           </div>
           <div className='flex items-end justify-evenly mb-10'>
-            <div>
-              <a href='https://www.linkedin.com/in/shashank-agarwal11/'>
-                <FaLinkedinIn
-                  className='text-white mr-4 hover:text-blue-700 transition duration-500 ease-in-out'
-                  size={28}
-                />
-              </a>
-            </div>
-            <div>
-              <a href='https://www.instagram.com/boywhodesign/'>
-                <FaInstagram
-                  className='text-white mr-4 hover:text-red-500 transition duration-500 ease-in-out'
-                  size={28}
-                />
-              </a>
-            </div>
-            <div>
+            <div class='social-media--handle social-div__behance'>
               <a href='https://www.behance.net/shashankagarwal/'>
                 <FaBehance
-                  className='text-white mr-4 hover:text-blue-600 transition duration-500 ease-in-out'
+                  className='behance text-white mr-4 hover:text-black transition duration-500 ease-in-out'
                   size={28}
                 />
               </a>
             </div>
-            <div>
+            <div class='social-media--handle social-div__instagram'>
+              <a href='https://www.instagram.com/boywhodesign/'>
+                <FaInstagram
+                  className='instagram text-white mr-4 hover:text-red-500 transition duration-500 ease-in-out'
+                  size={28}
+                />
+              </a>
+            </div>
+            <div class='social-media--handle social-div__linkedin'>
+              <a href='https://www.linkedin.com/in/shashank-agarwal11/'>
+                <FaLinkedinIn
+                  className='linkedin text-white mr-4 hover:text-blue-700 transition duration-500 ease-in-out'
+                  size={28}
+                />
+              </a>
+            </div>
+            <div class='social-media--handle social-div__github'>
               <a href='https://github.com/ShashankAgarwal77/'>
                 <FaGithub
-                  className='text-white mr-4 hover:text-gray-600 transition duration-500 ease-in-out'
+                  className='github text-white mr-4 hover:text-gray-600 transition duration-500 ease-in-out'
                   size={28}
                 />
               </a>
             </div>
-            <div>
-              <a href='https://mail.google.com/mail/u/?authuser=shashankagarwal.official@gmail.com/'>
+            <div class='social-media--handle social-div__mail'>
+              <a type='email' href='mailto:shashankagarwal.official@gmail.com'>
                 <FaMailBulk
-                  className='text-white mr-4 hover:text-red-700 transition duration-500 ease-in-out'
+                  className='mail text-white mr-4 hover:text-red-700 transition duration-500 ease-in-out'
                   size={28}
                 />
               </a>
