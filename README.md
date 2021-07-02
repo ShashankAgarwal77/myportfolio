@@ -14,13 +14,16 @@
 2. [Sanity](https://www.sanity.io/docs/sanity-studio) - Open Source CMS built with React.js
 3. [TailwindCSS](https://tailwindcss.com) - Designed to be component friendly
 
-## How it Started
-
 - I start Learn More about Headerless CMS to integrate my front-end with Headless CMS
 - What **Headerless Content Management System** really do ?
 - It basically acts as an content repository which can be accessible _via_ an API for display on any device.
 
-1. Using React.js for building Frontend Application is an great option to create single page applications
-2. All the content is Mangaged by Sanity Studio
+1. Using **React.js** for building Frontend Application is an great option to create single page applications
+2. All the content is Mangaged by **Sanity Studio**
    ⋅⋅\* Which is great option to add or remove content such as Posts and Projects
-3. All the Styling is done by the Tailwind CSS which is really handy to create fast and good accessible design using shorthand style coding.
+3. All the Styling is done by the **Tailwind CSS** which is really handy to create fast and good accessible design using shorthand style coding.
+
+## How it Started
+
+- First, Setting the ReactJS setup using `npx create-react-app myportfolio`
+  ⋅⋅\* `npx` helps to grab the package with latest version instead of using `npm install -g` and then use `create-react-app` to create react application then name of the project as `myportfolio`
