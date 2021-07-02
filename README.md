@@ -15,12 +15,12 @@
 
 ### My Technology Stack
 
-1. [React.js](https://reactjs.org) - To create resuable UI Components
-2. [Sanity](https://www.sanity.io/docs/sanity-studio) - Open Source CMS built with React.js
-3. [TailwindCSS](https://tailwindcss.com) - Designed to be component friendly
+- [React.js](https://reactjs.org) - To create resuable UI Components
+- [Sanity](https://www.sanity.io/docs/sanity-studio) - Open Source CMS built with React.js
+- [TailwindCSS](https://tailwindcss.com) - Designed to be component friendly
 
-4. Using **React.js** for building Frontend Application is an great option to create single page applications
-5. All the content is Mangaged by **Sanity Studio**
+1. Using **React.js** for building Frontend Application is an great option to create single page applications
+2. All the content is Mangaged by **Sanity Studio**
 
 - Which is great option to add or remove content such as Posts and Projects
 
@@ -28,5 +28,18 @@
 
 ## How it Started
 
-- First, Setting the ReactJS setup using `npx create-react-app myportfolio`
+1. React JS Setup
+
+-Setting the ReactJS setup using `npx create-react-app myportfolio`
+
 - `npx` helps to grab the package with latest version instead of using `npm install -g` and then use `create-react-app` to create react application then name of the project as `myportfolio`
+
+2. Sanity Studio Setup
+
+- Setting the Sanity Studio in my new codebase
+- On New Terminal, using `npm install -g @sanity/cli` to install sanity in my project
+- setting up the sanity other prompts using `sanity login`
+- To initialize using command `sanity init` then completing the project prompts or steps in initialize the Sanity in my React Project.
+- To setup the Sanity Codebase in React Codebase, I create an another Folder in root directory named `studio` to make it as sanity codebase.
+
+3. TailwindCSS Setup
