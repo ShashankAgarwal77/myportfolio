@@ -30,7 +30,7 @@
 
 1. React JS Setup
 
--Setting the ReactJS setup using `npx create-react-app myportfolio`
+- Setting the ReactJS setup using `npx create-react-app myportfolio`
 
 - `npx` helps to grab the package with latest version instead of using `npm install -g` and then use `create-react-app` to create react application then name of the project as `myportfolio`
 
