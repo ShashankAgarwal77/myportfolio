@@ -1,31 +1,34 @@
 /* Tailwind Setup through CDN */
-@import url('https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css');
-@import url('https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css');
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap");
 
 @font-face {
-  font-family: 'Averta';
-  src: url('./Fonts/Averta/Averta-ExtraBoldItalic.otf');
+  font-family: "Averta";
+  src: url("./Fonts/Averta/Averta-ExtraBoldItalic.otf");
 }
 
-@font-face {
-  font-family: 'Cotham Sans';
-  src: url('./Fonts/CothamSans.otf');
-}
+/* @font-face {
+  font-family: "Parkson";
+  src: url("./Fonts/Parkson/Parkson_demibold.otf");
+} */
 
 /* Root Variables */
 
 :root {
-  --ff-primary: 'Amatic SC';
-  --ff-secondary: 'Poppins', 'Cotham Sans';
-  --ff-heading: 'Averta', 'Syncopate', 'Bebas Neue', sans-serif;
-  /* --ff-heading: 'Catamaran', 'Bebas Neue', cursive; */
+  --ff-primary: "Assistant", sans-serif;
+  --ff-secondary: "Assistant", sans-serif;
+  --ff-heading: "Averta", sans-serif;
 }
 
 body {
@@ -104,7 +107,7 @@ body {
 }
 
 .nav_link-btn::before {
-  content: '';
+  content: "";
   /* show by default */
 }
 
