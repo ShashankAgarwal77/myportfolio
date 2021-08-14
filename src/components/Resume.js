@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 function Resume() {
   useEffect(() => {
     window.location.href =
-      'https://drive.google.com/file/d/1KP3ET0ZDyhVvW20-5A9TozigegXxd_9W/view?usp=sharing';
+      "https://drive.google.com/file/d/1sIDSf-CHyNH-bwbjzhxUMZ7ED4zvooWE/view?usp=sharing";
   }, []);
 
   return (
     <a
-      href='https://drive.google.com/file/d/1KP3ET0ZDyhVvW20-5A9TozigegXxd_9W/view?usp=sharing'
-      alt='product design resume'
+      href="https://drive.google.com/file/d/1sIDSf-CHyNH-bwbjzhxUMZ7ED4zvooWE/view?usp=sharing"
+      alt="product design resume"
     >
       Resume
     </a>
