@@ -3,12 +3,12 @@ import React, { useEffect } from "react";
 function Resume() {
   useEffect(() => {
     window.location.href =
-      "https://drive.google.com/file/d/1LSek99-ZwhciD9udMLeC5RwOW_rCdDf6/view?usp=sharing";
+      "https://drive.google.com/file/d/1fGyogJHOi7f497eCQ6tlFhUC44zwWaIP/view?usp=sharing";
   }, []);
 
   return (
     <a
-      href="https://drive.google.com/file/d/1LSek99-ZwhciD9udMLeC5RwOW_rCdDf6/view?usp=sharing"
+      href="https://drive.google.com/file/d/1fGyogJHOi7f497eCQ6tlFhUC44zwWaIP/view?usp=sharing"
       alt="product design resume"
     >
       Resume
