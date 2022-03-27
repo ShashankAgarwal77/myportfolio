@@ -31,7 +31,7 @@ export default function Home() {
         </h1>
         <p className="sm:text-xs home_header-p mt-3 uppercase md:text-2xl text-white bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
           {" "}
-          UX Designer and Developer
+          Product Designer and Developer
           <span className="text-green-400">.</span>
         </p>
         <br></br>
