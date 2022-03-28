@@ -34,7 +34,7 @@ export default function Post() {
         <h2 className='text-lg text-gray-600 flex justify-center mb-12'>
           Selected case-studies are here to present my work
         </h2>
-        <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8'>
+        <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8'>
           {postData &&
             postData.map((post, index) => (
               <article>
