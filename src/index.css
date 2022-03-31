@@ -4,16 +4,31 @@
 
 /* --- Google Fonts --- */
 /* Rubik Font */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"); */
 /* Work Sans */
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap"); */
+
+/* Custom Fonts */
+@font-face {
+  font-family: "Circular";
+  src: url("./Fonts/Circular/CircularStd-Medium.otf"),
+    url("./Fonts/Circular/CircularStd-Light.otf"),
+    url("./Fonts/Circular/CircularStd-Book.otf"),
+    url("./Fonts/Circular/CircularStd-Bold.otf"),
+    url("./Fonts/Circular/CircularStd-Black.otf"),
+    url("./Fonts/Circular/CircularStd-MediumItalic.otf"),
+    url("./Fonts/Circular/CircularStd-Light\ Italic.otf"),
+    url("./Fonts/Circular/CircularStd-BookItalic.otf"),
+    url("./Fonts/Circular/CircularStd-BoldItalic.otf"),
+    url("./Fonts/Circular/CircularStd-BlackItalic.otf");
+}
 
 /* Root Variables */
 
 :root {
-  --ff-primary: "Rubik", sans-serif;
-  --ff-secondary: "Rubik", sans-serif;
-  --ff-heading: "Work Sans", sans-serif;
+  --ff-primary: "Circular", sans-serif;
+  --ff-secondary: "Circular", sans-serif;
+  --ff-heading: "Circular", sans-serif;
 }
 
 body {
