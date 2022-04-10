@@ -47,7 +47,7 @@ export default function SinglePost() {
               <h1 className="cursive text-2xl lg:text-4xl mb-4">
                 {singlePost.title}
               </h1>
-              <div className="flex justify-center text-gray-800">
+              <div className="flex justify-center font-medium text-gray-800">
                 <img
                   src={urlFor(singlePost.authorImage).url()}
                   alt={singlePost.name}
@@ -66,7 +66,7 @@ export default function SinglePost() {
             style={{ height: "400px" }}
           />
         </header>
-        <div className="px-4 lg:px-32 py-12 lg:py-20 prose lg:prose-xl max-w-full">
+        <div className="px-4 text-gray-900 lg:px-32 py-12 lg:py-20 prose lg:prose-xl max-w-full">
           <BlockContent
             blocks={singlePost.body}
             projectId="loniby3f"

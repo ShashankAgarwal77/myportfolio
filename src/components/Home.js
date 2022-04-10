@@ -37,26 +37,23 @@ export default function Home() {
         <br></br>
         <br></br>
         <p className="sm:text-xs text-lg mt-5 md:text-xl text-white">
-          <span className="home_p-span text-gray-500">
-            I am known for belief in the power of{" "}
+          <span className="home_p-span text-gray-400">
+            I am known for belief in the power of
           </span>
-          <span className="p_creativity bg-gradient-to-r from-green-400 to-blue-500">
-            {" "}
-            creativity{" "}
+          <span className="p_creativity text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+            creativity
           </span>
-          ,{" "}
-          <span className="p_minimalism bg-gradient-to-r from-gray-700 to-gray-900">
-            {" "}
-            minimalism{" "}
-          </span>{" "}
+          ,
+          <span className="p_minimalism text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">
+            minimalism
+          </span>
           <span className="text-gray-500">&amp;</span>
-          <span className="p_problem bg-gradient-to-r from-red-500  to-red-800">
-            {" "}
-            problem solving{" "}
-          </span>{" "}
-          <div> {"\n"} </div>{" "}
-          <span className="home_p-span text-gray-500">
-            to create a more inclusive communities{" "}
+          <span className="p_problem text-transparent bg-clip-text bg-gradient-to-r from-red-500  to-red-800">
+            problem solving
+          </span>
+          {/* <div> {"\n"} </div>{" "} */}
+          <span className="home_p-span text-gray-400">
+            to create a more inclusive communities
           </span>
           <span className="text-green-400">.</span>
         </p>
