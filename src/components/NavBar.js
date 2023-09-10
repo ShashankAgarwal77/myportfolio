@@ -17,7 +17,7 @@ export default function NavBar({ toggle }) {
           exact
           activeClassName="text-green"
           className="inline-flex items-center py-6 px-3 mr-4 text-white
-                    hover:bg-green-700 hover:drop-shadow-2xl text-4xl font-bold cursive  tracking-widest"
+                   text-4xl font-bold cursive  tracking-widest"
         >
           <img height={80} width={80} src={Logo} alt="Shashank Agarwal Logo" />
         </NavLink>
