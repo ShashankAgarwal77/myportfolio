@@ -4,7 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import SinglePost from './components/SinglePost';
 import Post from './components/Post';
-import Project from './components/Project';
+// import Project from './components/Project';
 import NavBar from './components/NavBar';
 import SideBar from './components/Sidebar';
 import Footer from './components/Footer';
@@ -26,7 +26,7 @@ function App() {
         <Route component={About} path='/about' />
         <Route component={SinglePost} path='/post/:slug' />
         <Route component={Post} path='/post' />
-        <Route component={Project} path='/project' />
+        {/* <Route component={Project} path='/project' /> */}
         <Route component={Resume} path='/resume' />
       </Switch>
       <Footer />

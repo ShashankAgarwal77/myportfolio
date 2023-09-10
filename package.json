@@ -1,6 +1,6 @@
 {
   "name": "myportfolio",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "@sanity/block-content-to-react": "^3.0.0",
@@ -55,5 +55,13 @@
   "devDependencies": {
     "babel-plugin-polyfill-corejs2": "^0.2.2",
     "babel-plugin-polyfill-corejs3": "^0.2.2"
+  },
+  "description": "![Homepage of Portfolio](./src/header-image.png)",
+  "main": "index.js",
+  "author": "Shashank Agarwal",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.io/ShashankAgarwal77/myportfolio"
   }
 }

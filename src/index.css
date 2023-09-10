@@ -65,9 +65,9 @@ body {
   margin: 2em;
   align-items: center;
   background: rgba(4, 4, 4, 0.5);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(10px); */
   border-radius: 10px;
 }
 
@@ -174,12 +174,16 @@ body {
 /* --- Footer Component --- */
 
 .footer_container {
+  /* position:absolute;
+  left:0;
+  bottom:0;
+  right:0; */
   background: rgba(4, 4, 4, 0.5);
   /* background: white; */
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 10px 10px 0 0;
+  /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(10px); */
+  /* border-radius: 10px 10px 0 0; */
 }
 
 .social_heading {

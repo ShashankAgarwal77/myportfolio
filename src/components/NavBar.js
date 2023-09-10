@@ -34,13 +34,13 @@ export default function NavBar({ toggle }) {
               >
                 Case Studies
               </NavLink>
-              <NavLink
+              {/* <NavLink
                 to="/project"
                 className="nav_link-btn inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700 uppercase tracking-wide"
                 activeClassName="text-green-500"
               >
                 Projects
-              </NavLink>
+              </NavLink> */}
               <NavLink
                 to="/about"
                 className="nav_link-btn inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700 uppercase tracking-wide"
