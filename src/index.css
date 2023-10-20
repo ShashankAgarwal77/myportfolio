@@ -262,6 +262,29 @@ body {
   display: inline-block;
 }
 
+/* onLoad Transition */
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.drop-in {
+  animation: drop-in 1s ease 200ms backwards;
+ }
+ 
+.drop-in-1 {
+  animation: drop-in 1200ms ease 500ms backwards;
+}
+
+.drop-in-2 {
+  animation: drop-in 1400ms ease 750ms backwards;
+}
+
+.drop-in-3 {
+  animation: drop-in 2000ms ease 1000ms backwards;
+}
+
+
 /* KeyFrames -- Animation */
 
 @keyframes wave-animation {
@@ -312,3 +335,16 @@ body {
     transform: translateY(10%);
   }
 }
+
+/* KeyFrames -- onLoad Text Animation */
+
+@keyframes drop-in {
+  from {
+   opacity: 0;
+   transform: translateY(-100px);
+  }
+  to {
+   opacity: 1;
+   transform: translate(0px);
+  }
+ }

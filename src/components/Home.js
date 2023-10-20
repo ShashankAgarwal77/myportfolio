@@ -11,32 +11,36 @@ export default function Home() {
         <LottieAnimation lotti={home} height={450} width={450} />
       </div>
       <section className="home__main--content">
-        <h1 className="text-3xl bold pr-6 mr-6">
-          <span className=" text-2xl home__main--heading-span text-green-400">
-            {" "}
-            Hello!{" "}
-            <span
-              role="img"
-              aria-label="Hi wave"
-              className="wavy_hands wavy_hands--animation"
-            >
-              👋
-            </span>{" "}
-            I am <div> {"\n"} </div>{" "}
-          </span>
-          <span className="home_header-span text-2xl leading-2 text-white md:text-6xl">
-            Shashank Agarwal
-          </span>
-          <span className="text-green-400">.</span>
-        </h1>
-        <p className="sm:text-xs home_header-p mt-3 uppercase md:text-2xl text-white bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-          {" "}
-          Product Designer and Developer
-          <span className="text-green-400">.</span>
-        </p>
-        <br></br>
-        <br></br>
-        <p className="sm:text-xs text-lg mt-5 md:text-xl text-white">
+        <div class ="overflow-hidden">
+          <h1 className="text-3xl bold pr-6 mr-6">
+            <span className=" text-2xl home__main--heading-span text-green-400 drop-in">
+              {" "}
+              Hello!{" "}
+              <span
+                role="img"
+                aria-label="Hi wave"
+                className="wavy_hands wavy_hands--animation"
+              >
+                👋
+              </span>{" "}
+              I am <div> {"\n"} </div>{" "}
+            </span>
+            <span className="home_header-span text-2xl leading-2 text-white md:text-6xl drop-in-1">
+              Shashank Agarwal
+            </span>
+            <span className="text-green-400">.</span>
+          </h1>
+          <div className=" overflow-hidden home_header-p mt-3 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+            <p className="sm:text-xs  uppercase md:text-2xl text-white drop-in-2">
+              {" "}
+              Multidiscipilinary Product Designer 
+              <span className="text-green-400">.</span>
+            </p> 
+          </div>
+           
+        </div>
+        
+        <p className="sm:text-xs text-lg mt-4 md:text-xl text-white">
           <span className="home_p-span text-gray-400">
             I am known for belief in the power of
           </span>
