@@ -27,13 +27,14 @@ export default function Post() {
   return (
     <main className="bg-black-100 min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl flex justify-center cursive text-white">
-          {" "}
-          Case Studies
-        </h1>
-        <h2 className="text-lg text-gray-400 flex justify-center mb-12">
-          Selected case-studies are here to present my work
-        </h2>
+          <h1 className="text-5xl flex justify-center cursive text-white drop-in">
+            {" "}
+            Case Studies
+          </h1>
+          <h2 className="text-lg text-gray-400 flex justify-center mb-12 drop-in-1">
+            Selected case-studies are here to present my work
+          </h2>
+
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8">
           {postData &&
             postData.map((post, index) => (
