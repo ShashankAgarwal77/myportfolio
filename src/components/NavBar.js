@@ -10,7 +10,7 @@ import Logo from "../SVGs/logo.svg";
 
 export default function NavBar({ toggle }) {
   return (
-    <header className="nav_container flex bg-white-400">
+    <header className=" flex bg-white-400">
       <div className="container mx-auto flex justify-between">
         <NavLink
           to="/"
@@ -27,13 +27,13 @@ export default function NavBar({ toggle }) {
               <FaBars />
             </MobileIcon>
             <NavMenu>
-              <NavLink
+              {/* <NavLink
                 to="/post"
                 className="nav_link-btn inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700 uppercase tracking-wide	"
                 activeClassName="text-green-500"
               >
                 Case Studies
-              </NavLink>
+              </NavLink> */}
               {/* <NavLink
                 to="/project"
                 className="nav_link-btn inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-700 uppercase tracking-wide"
