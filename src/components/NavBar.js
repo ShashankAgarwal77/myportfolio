@@ -10,16 +10,17 @@ import Logo from "../SVGs/logo.svg";
 
 export default function NavBar({ toggle }) {
   return (
-    <header className=" flex bg-white-400">
-      <div className="container mx-auto flex justify-between">
+    <header className="navbar_container flex">
+      <div className="container mx-auto flex justify-between content-center">
         <NavLink
           to="/"
           exact
           activeClassName="text-green"
           className="inline-flex items-center py-6 px-3 mr-4 text-white
-                   text-4xl font-bold cursive  tracking-widest"
+                   text-5xl font-bold cursive tracking-widest hover:text-green-600 ease-in duration-300"
         >
-          <img height={80} width={80} src={Logo} alt="Shashank Agarwal Logo" />
+          sa.
+          {/* <img height={80} width={80} src={Logo} alt="Shashank Agarwal Logo" /> */}
         </NavLink>
         <Nav className="flex py-3 px-3">
           <NavbarContainer>
