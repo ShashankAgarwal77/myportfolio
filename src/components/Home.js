@@ -86,6 +86,8 @@ export default function Home() {
               </span>
               <span className="text-green-400">.</span>
             </p>
+
+            <p className="sm:text-xs text-lg mt-4 md:text-xl text-white"> Product Designer with over 2 years of experience. Have over 1.9 years of fintech product design experience. Designed highly successful cross-functional products; led digital design teams, managed and launched 6 (0 to 1) products. </p>      
           </div>
         </section>
   
