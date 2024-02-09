@@ -60,6 +60,8 @@ body {
   /* letter-spacing: 0.1rem; */
 }
 
+
+
 .home__main {
   padding: 4em 3em;
   margin: 2em;
@@ -71,6 +73,10 @@ body {
   border-radius: 10px;
 }
 
+.case__study {
+  margin: 4em 2em 4em 2em;
+  align-items: center;
+}
 /* .home__main--content {
   margin-top: -3.5em;
 } */
@@ -87,11 +93,6 @@ body {
 }
 
 /* --- NavLink Component */
-
-/* .navbar_container {
-  position: sticky;
-  top: 0;
-} */
 
 .nav_link-btn {
   cursor: pointer;

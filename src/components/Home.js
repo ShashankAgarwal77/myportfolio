@@ -87,12 +87,12 @@ export default function Home() {
               <span className="text-green-400">.</span>
             </p>
 
-            <p className="sm:text-xs text-lg mt-4 md:text-xl text-white"> Product Designer with over 2 years of experience. Have over 1.9 years of fintech product design experience. Designed highly successful cross-functional products; led digital design teams, managed and launched 6 (0 to 1) products. </p>      
+            {/* <p className=" sm:text-xs text-lg mt-4 md:text-xl text-white"> Product Designer with over 2 years of experience. Have over 1.9 years of fintech product design experience. Designed highly successful cross-functional products; led digital design teams, managed and launched 6 (0 to 1) products. </p>       */}
           </div>
         </section>
   
-        <section className="home__main min-h-screen p-12">
-          <div className="container mx-auto">
+        <section className="case__study">
+          <div className="mx-auto">
               <h1 className="text-5xl flex justify-center cursive text-white drop-in">
                 {" "}
                 Case Studies
@@ -101,7 +101,7 @@ export default function Home() {
                 Selected case-studies are here to present my work
               </h2>
   
-            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 sm:grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 gap-4">
               {postData &&
                 postData.map((post, index) => (
                   <article>

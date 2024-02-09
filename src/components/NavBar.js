@@ -10,8 +10,8 @@ import Logo from "../SVGs/logo.svg";
 
 export default function NavBar({ toggle }) {
   return (
-    <header className="navbar_container flex">
-      <div className="container mx-auto flex justify-between content-center">
+    <header>
+      <div className="px-2 flex flex-row justify-between">
         <NavLink
           to="/"
           exact
@@ -19,8 +19,7 @@ export default function NavBar({ toggle }) {
           className="inline-flex items-center py-6 px-3 mr-4 text-white
                    text-5xl font-bold cursive tracking-widest hover:text-green-600 ease-in duration-300"
         >
-          sa.
-          {/* <img height={80} width={80} src={Logo} alt="Shashank Agarwal Logo" /> */}
+        <img height={80} width={80} src={Logo} alt="Shashank Agarwal Logo" />
         </NavLink>
         <Nav className="flex py-3 px-3">
           <NavbarContainer>
@@ -61,29 +60,7 @@ export default function NavBar({ toggle }) {
           </NavbarContainer>
         </Nav>
 
-        {/* <div className="inline-flex py-3 px-3 my-6">
-          <SocialIcon
-            url="https://www.behance.net/shashankagarwal"
-            className='mr-4'
-            target='_blank'
-            fgColor='#fff'
-            style={{ height: 35, width: 35 }}
-          />
-          <SocialIcon
-            url="https://www.linkedin.com/in/shashank-agarwal11/"
-            className='mr-4'
-            target='_blank'
-            fgColor='#fff'
-            style={{ height: 35, width: 35 }}
-          />
-          <SocialIcon
-            url="https://twitter.com/_iamtheshashank"
-            className='mr-4'
-            target='_blank'
-            fgColor='#fff'
-            style={{ height: 35, width: 35 }}
-          />
-        </div> */}
+
       </div>
     </header>
   );
