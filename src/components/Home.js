@@ -31,7 +31,7 @@ export default function Home() {
     return (
       <main>
         
-        <section className="home__main flex flex-row-reverse justify-between content-center my-8 bg-black">
+        <section className="home__main flex flex-row-reverse justify-between content-center my-8 mx-12 bg-black">
           <div id="home_image--container">
             <LottieAnimation lotti={home} height={450} width={450} />
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
         </section>
   
-        <section className="case__study">
+        <section className="case__study my-8 mx-12">
           <div className="mx-auto">
               <h1 className="text-5xl flex justify-center cursive text-white drop-in">
                 {" "}

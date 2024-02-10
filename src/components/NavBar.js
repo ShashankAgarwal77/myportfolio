@@ -11,7 +11,7 @@ import Logo from "../SVGs/logo.svg";
 export default function NavBar({ toggle }) {
   return (
     <header>
-      <div className="px-2 flex flex-row justify-between">
+      <div className=" my-2 px-12 flex flex-row justify-between">
         <NavLink
           to="/"
           exact
